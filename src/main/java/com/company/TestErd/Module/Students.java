@@ -1,4 +1,4 @@
-package com.company.TestErd.Dto;
+package com.company.TestErd.Module;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;
@@ -8,6 +8,5 @@ import lombok.*;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@JsonInclude(JsonInclude.Include.NON_NULL)
-public class GroupsDto {
+public class Students {
 }

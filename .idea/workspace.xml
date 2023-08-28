@@ -5,7 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9649a5fb-5ced-4c44-90e4-bd627bd0e1a9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/GroupDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/ResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/SimpleCrud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Module/Marks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Module/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Module/SubjectTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Module/Subjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Module/Teachers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Repository/GroupRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Repository/MarksRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Repository/StudentsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Repository/SubjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Repository/SubjectTeacherRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Repository/TeacherRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Controller/GroupsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Controller/GroupsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Controller/SubjectTeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Controller/SubjectTeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Controller/SubjectsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Controller/SubjectsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Controller/TeachersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Controller/TeachersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/GroupsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Module/Groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/MarksDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/MarksDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/StudentsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/StudentsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/SubjectTeacherDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/SubjectTeacherDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/SubjectsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/SubjectsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/TeachersDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/TeachersDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/Mapper/SubjectTeacherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/Mapper/SubjectTeacherMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/Mapper/SubjectsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/Mapper/SubjectsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/Mapper/TeachersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/Mapper/TeachersMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/SubjectTeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/SubjectTeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/SubjectsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/SubjectsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/TeachersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/TeachersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +69,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -45,13 +77,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "dev/Asad",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/VICTUS/IdeaProjects/newProjectForPractise/Java-Backend-6-Test",
+    "last_opened_file_path": "C:/Users/VICTUS/IdeaProjects/newProjectForPractise/Java-Backend-6-Test/src/main/java/com/company/TestErd/Module",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "spring.configuration.checksum": "637012eade0dc8ae49f0857a85692873",
     "vue.rearranger.settings.migration": "true"
   },
@@ -61,7 +95,25 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\VICTUS\IdeaProjects\newProjectForPractise\Java-Backend-6-Test\src\main\java\com\company\TestErd\Module" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="TestErd" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="TestErd" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestErdApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="TestErd" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.company.TestErd.TestErdApplication" />
@@ -82,6 +134,8 @@
       <workItem from="1693199008048" duration="1458000" />
       <workItem from="1693208236027" duration="1099000" />
       <workItem from="1693214290404" duration="142000" />
+      <workItem from="1693214451725" duration="388000" />
+      <workItem from="1693217266153" duration="6273000" />
     </task>
     <servers />
   </component>
