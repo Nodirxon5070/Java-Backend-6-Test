@@ -5,6 +5,7 @@ import com.company.TestErd.Dto.SimpleCrud;
 import com.company.TestErd.Dto.SubjectsDto;
 import com.company.TestErd.Service.SubjectsService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.jmx.export.annotation.ManagedOperation;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

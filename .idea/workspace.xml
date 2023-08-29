@@ -5,38 +5,86 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9649a5fb-5ced-4c44-90e4-bd627bd0e1a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/GroupDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/ResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/SimpleCrud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Module/Marks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Module/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Module/SubjectTeacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Module/Subjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Module/Teachers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Repository/GroupRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Repository/MarksRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Repository/StudentsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Repository/SubjectRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Repository/SubjectTeacherRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Repository/TeacherRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/ErrorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac5d611e-be94-48e8-a546-3ab55e1fa3e9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ac5d611e-be94-48e8-a546-3ab55e1fa3e9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Controller/GroupsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Controller/GroupsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestErd.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Controller/SubjectTeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Controller/SubjectTeacherController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Controller/SubjectsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Controller/SubjectsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Controller/TeachersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Controller/TeachersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/GroupsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Module/Groups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/MarksDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/MarksDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/StudentsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/StudentsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/ResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/ResponseDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/SubjectTeacherDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/SubjectTeacherDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/SubjectsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/SubjectsDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/TeachersDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Dto/TeachersDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/Mapper/SubjectTeacherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/Mapper/SubjectTeacherMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/Mapper/SubjectsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/Mapper/SubjectsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/Mapper/TeachersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/Mapper/TeachersMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/SubjectTeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/SubjectTeacherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/SubjectsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/SubjectsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Module/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Module/Groups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/TeachersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/TestErd/Service/TeachersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Controller/GroupsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Controller/MarksController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Controller/StudentsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Controller/SubjectTeacherController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Controller/SubjectsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Controller/TeachersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/GroupDto$GroupDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/GroupDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/MarksDto$MarksDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/MarksDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/ResponseDto$ResponseDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/ResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/SimpleCrud.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/StudentsDto$StudentsDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/StudentsDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/SubjectTeacherDto$SubjectTeacherDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/SubjectTeacherDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/SubjectsDto$SubjectsDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/SubjectsDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/TeachersDto$TeachersDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/TeachersDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Groups$GroupsBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Groups.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Marks$MarksBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Marks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Students$StudentsBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Students.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/SubjectTeacher$SubjectTeacherBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/SubjectTeacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Subjects$SubjectsBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Subjects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Teachers$TeachersBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Teachers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Repository/GroupRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Repository/MarksRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Repository/StudentsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Repository/SubjectRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Repository/SubjectTeacherRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Repository/TeacherRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/GroupsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/Mapper/GroupsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/Mapper/GroupsMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/Mapper/MarksMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/Mapper/MarksMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/Mapper/StudentsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/Mapper/StudentsMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/Mapper/SubjectTeacherMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/Mapper/SubjectTeacherMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/Mapper/SubjectsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/Mapper/SubjectsMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/Mapper/TeachersMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/Mapper/TeachersMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/MarksService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/StudentsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/SubjectTeacherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/SubjectsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/TeachersService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/TestErdApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/company/TestErd/Service/Mapper/GroupsMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/company/TestErd/Service/Mapper/MarksMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/company/TestErd/Service/Mapper/StudentsMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/company/TestErd/Service/Mapper/SubjectTeacherMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/company/TestErd/Service/Mapper/SubjectsMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/company/TestErd/Service/Mapper/TeachersMapperImpl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,53 +115,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "dev/Asad",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/VICTUS/IdeaProjects/newProjectForPractise/Java-Backend-6-Test/src/main/java/com/company/TestErd/Module",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "637012eade0dc8ae49f0857a85692873",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev/Asad&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/VICTUS/IdeaProjects/newProjectForPractise/Java-Backend-6-Test/src/main/java/com/company/TestErd/Module&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;637012eade0dc8ae49f0857a85692873&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\VICTUS\IdeaProjects\newProjectForPractise\Java-Backend-6-Test\src\main\java\com\company\TestErd\Module" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean package -Dmaven.test.skip" />
+    </option>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="TestErd" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="TestErd" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestErdApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="TestErd" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.company.TestErd.TestErdApplication" />
@@ -136,6 +176,14 @@
       <workItem from="1693214290404" duration="142000" />
       <workItem from="1693214451725" duration="388000" />
       <workItem from="1693217266153" duration="6273000" />
+      <workItem from="1693241930785" duration="158000" />
+      <workItem from="1693242102551" duration="96000" />
+      <workItem from="1693242244088" duration="109000" />
+      <workItem from="1693242363669" duration="29000" />
+      <workItem from="1693242402612" duration="168000" />
+      <workItem from="1693242597066" duration="103000" />
+      <workItem from="1693242731618" duration="910000" />
+      <workItem from="1693243673965" duration="652000" />
     </task>
     <servers />
   </component>

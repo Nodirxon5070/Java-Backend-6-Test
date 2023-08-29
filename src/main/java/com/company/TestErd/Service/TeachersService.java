@@ -5,6 +5,7 @@ import com.company.TestErd.Dto.SimpleCrud;
 import com.company.TestErd.Dto.TeachersDto;
 import com.company.TestErd.Repository.TeacherRepository;
 import com.company.TestErd.Service.Mapper.TeachersMapper;
+import jakarta.validation.Valid;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -16,7 +17,7 @@ public record TeachersService (
         TeacherRepository repository)
         implements SimpleCrud<Integer, TeachersDto> {
     @Override
-    public ResponseDto<TeachersDto> create(TeachersDto dto) {
+    public ResponseDto<TeachersDto> create(@Valid TeachersDto dto) {
         try {
             return ResponseDto.<TeachersDto>builder()
                     .message("OK")

@@ -40,7 +40,7 @@ public class SubjectTeacherController implements SimpleCrud<Integer, SubjectTeac
     }
 
     @Override
-    @GetMapping(value = "getAll")
+    @GetMapping
     public ResponseDto<List<SubjectTeacherDto>> getAll() {
         return service.getAll();
     }

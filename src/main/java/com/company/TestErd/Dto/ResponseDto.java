@@ -2,6 +2,8 @@ package com.company.TestErd.Dto;
 
 import lombok.*;
 
+import java.util.List;
+
 @Getter
 @Setter
 @Builder
@@ -12,4 +14,5 @@ public class ResponseDto<T>{
     private boolean success;
     private String message;
     private T date;
+    private List<ErrorDto> errorlist;
 }

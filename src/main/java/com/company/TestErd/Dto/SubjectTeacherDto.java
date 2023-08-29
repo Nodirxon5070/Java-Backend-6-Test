@@ -1,6 +1,7 @@
 package com.company.TestErd.Dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import jakarta.validation.constraints.NotNull;
 import lombok.*;
 
 import java.time.LocalDateTime;
@@ -12,8 +13,11 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class SubjectTeacherDto {
+    @NotNull(message = "the field is not filled")
     private Integer subjectId;
+    @NotNull(message = "the field is not filled")
     private Integer teacherId;
+    @NotNull(message = "the field is not filled")
     private Integer groupId;
 
     private LocalDateTime createdAt;
