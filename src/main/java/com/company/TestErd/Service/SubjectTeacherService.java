@@ -17,6 +17,7 @@ public record SubjectTeacherService(
         SubjectsService subjectsService,
         TeachersService teachersService,
         MarksService marksService)
+
         implements SimpleCrud<Integer, SubjectTeacherDto> {
     @Override
     public ResponseDto<SubjectTeacherDto> create(SubjectTeacherDto dto) {
@@ -36,7 +37,7 @@ public record SubjectTeacherService(
             return ResponseDto.<SubjectTeacherDto>builder()
                     .message("OK")
                     .success(true)
-                    .date(this.mapper.toDto(
+                    .date(this.mapper.toDtoWithSubjectAndGroupAndTeacher(
                             this.repository.save(
                                     this.mapper.toEntity(dto))))
                     .build();
@@ -56,7 +57,7 @@ public record SubjectTeacherService(
                         ResponseDto.<SubjectTeacherDto>builder()
                                 .message("OK")
                                 .success(true)
-                                .date(this.mapper.toDto(subjects))
+                                .date(this.mapper.toDtoWithSubjectAndGroupAndTeacher(subjects))
                                 .build()
                 ).orElse(
                         ResponseDto.<SubjectTeacherDto>builder()
@@ -74,7 +75,7 @@ public record SubjectTeacherService(
                                     ResponseDto.<SubjectTeacherDto>builder()
                                             .message("OK")
                                             .success(true)
-                                            .date(this.mapper.toDto(
+                                            .date(this.mapper.toDtoWithSubjectAndGroupAndTeacher(
                                                     this.repository.save(
                                                             this.mapper.updateFromToDto(dto, subjects))))
                                             .build()
@@ -100,7 +101,7 @@ public record SubjectTeacherService(
                                 return ResponseDto.<SubjectTeacherDto>builder()
                                         .message("OK")
                                         .success(true)
-                                        .date(this.mapper.toDto(
+                                        .date(this.mapper.toDtoWithSubjectAndGroupAndTeacher(
                                                 this.repository.save(subjects)))
                                         .build();
                             }
@@ -119,7 +120,7 @@ public record SubjectTeacherService(
 
     @Override
     public ResponseDto<List<SubjectTeacherDto>> getAll() {
-        return Optional.of(this.repository.findAll().stream().map(this.mapper::toDto).toList())
+        return Optional.of(this.repository.findAll().stream().map(this.mapper::toDtoWithSubjectAndGroupAndTeacher).toList())
                 .map(
                         subjectTeacherDtos ->
                                 ResponseDto.<List<SubjectTeacherDto>>builder()
@@ -133,7 +134,6 @@ public record SubjectTeacherService(
                                 .code(-1)
                                 .message("subjectTeachers are not found")
                                 .build()
-
                 );
     }
 }

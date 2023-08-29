@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-08-29T09:25:11+0500",
+    date = "2023-08-29T10:06:25+0500",
     comments = "version: 1.5.3.Final, compiler: javac, environment: Java 20.0.2 (Oracle Corporation)"
 )
 @Component
@@ -22,6 +22,7 @@ public class SubjectTeacherMapperImpl extends SubjectTeacherMapper {
 
         SubjectTeacherDto.SubjectTeacherDtoBuilder subjectTeacherDto = SubjectTeacherDto.builder();
 
+        subjectTeacherDto.subTeachId( subTeacher.getSubTeachId() );
         subjectTeacherDto.subjectId( subTeacher.getSubjectId() );
         subjectTeacherDto.teacherId( subTeacher.getTeacherId() );
         subjectTeacherDto.groupId( subTeacher.getGroupId() );
@@ -40,6 +41,7 @@ public class SubjectTeacherMapperImpl extends SubjectTeacherMapper {
 
         SubjectTeacher.SubjectTeacherBuilder subjectTeacher = SubjectTeacher.builder();
 
+        subjectTeacher.subTeachId( dto.getSubTeachId() );
         subjectTeacher.subjectId( dto.getSubjectId() );
         subjectTeacher.teacherId( dto.getTeacherId() );
         subjectTeacher.groupId( dto.getGroupId() );
@@ -53,6 +55,9 @@ public class SubjectTeacherMapperImpl extends SubjectTeacherMapper {
             return subTeacher;
         }
 
+        if ( dto.getSubTeachId() != null ) {
+            subTeacher.setSubTeachId( dto.getSubTeachId() );
+        }
         if ( dto.getSubjectId() != null ) {
             subTeacher.setSubjectId( dto.getSubjectId() );
         }
@@ -73,5 +78,27 @@ public class SubjectTeacherMapperImpl extends SubjectTeacherMapper {
         }
 
         return subTeacher;
+    }
+
+    @Override
+    public SubjectTeacherDto toDtoWithSubjectAndGroupAndTeacher(SubjectTeacher subjectTeacher) {
+        if ( subjectTeacher == null ) {
+            return null;
+        }
+
+        SubjectTeacherDto.SubjectTeacherDtoBuilder subjectTeacherDto = SubjectTeacherDto.builder();
+
+        subjectTeacherDto.subTeachId( subjectTeacher.getSubTeachId() );
+        subjectTeacherDto.subjectId( subjectTeacher.getSubjectId() );
+        subjectTeacherDto.teacherId( subjectTeacher.getTeacherId() );
+        subjectTeacherDto.groupId( subjectTeacher.getGroupId() );
+        subjectTeacherDto.createdAt( subjectTeacher.getCreatedAt() );
+        subjectTeacherDto.updatedAt( subjectTeacher.getUpdatedAt() );
+        subjectTeacherDto.deletedAt( subjectTeacher.getDeletedAt() );
+
+        subjectTeacherDto.subSetDto( subjectTeacher.getSubjects().stream().map(subjectsMapper::toDto).collect(Collectors.toSet()) );
+        subjectTeacherDto.teachSetDto( subjectTeacher.getTeachers().stream().map(teachersMapper::toDto).collect(Collectors.toSet()) );
+
+        return subjectTeacherDto.build();
     }
 }

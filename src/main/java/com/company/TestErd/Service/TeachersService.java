@@ -42,7 +42,7 @@ public record TeachersService (
                         ResponseDto.<TeachersDto>builder()
                                 .message("OK")
                                 .success(true)
-                                .date(this.mapper.toDto(subjects))
+                                .date(this.mapper.toDtoWithSubTeach(subjects))
                                 .build()
                 ).orElse(
                         ResponseDto.<TeachersDto>builder()
@@ -60,7 +60,7 @@ public record TeachersService (
                                     ResponseDto.<TeachersDto>builder()
                                             .message("OK")
                                             .success(true)
-                                            .date(this.mapper.toDto(
+                                            .date(this.mapper.toDtoWithSubTeach(
                                                     this.repository.save(
                                                             this.mapper.updateFromToDto(dto, subjects))))
                                             .build()

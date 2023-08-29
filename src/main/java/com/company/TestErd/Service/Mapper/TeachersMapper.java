@@ -5,19 +5,27 @@ import com.company.TestErd.Dto.TeachersDto;
 import com.company.TestErd.Module.Subjects;
 import com.company.TestErd.Module.Teachers;
 import org.mapstruct.*;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import java.util.stream.Collectors;
 
 @Mapper(componentModel = "spring",imports = Collectors.class)
 public abstract class TeachersMapper {
+    @Autowired
+    SubjectTeacherMapper mapper;
 
+    @Mapping(target = "subTeachDto",ignore = true)
     public abstract TeachersDto toDto(Teachers subjects);
     @Mapping(target = "createdAt",ignore = true)
     @Mapping(target = "deletedAt",ignore = true)
     @Mapping(target = "updatedAt",ignore = true)
+    @Mapping(target = "subjectTeacher",ignore = true)
     public  abstract Teachers toEntity(TeachersDto dto);
     @BeanMapping(nullValuePropertyMappingStrategy = NullValuePropertyMappingStrategy.IGNORE,resultType = Teachers.class)
     public abstract Teachers updateFromToDto(TeachersDto dto, @MappingTarget Teachers subjects);
 
+    @Mapping(target = "subTeachDto",expression = "java(mapper.toDto(teachers.getSubjectTeacher()))")
+    public abstract TeachersDto toDtoWithSubTeach(Teachers teachers);
 }

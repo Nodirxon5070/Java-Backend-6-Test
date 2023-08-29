@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-08-29T09:25:11+0500",
+    date = "2023-08-29T10:15:15+0500",
     comments = "version: 1.5.3.Final, compiler: javac, environment: Java 20.0.2 (Oracle Corporation)"
 )
 @Component
@@ -73,5 +73,25 @@ public class TeachersMapperImpl extends TeachersMapper {
         }
 
         return subjects;
+    }
+
+    @Override
+    public TeachersDto toDtoWithSubTeach(Teachers teachers) {
+        if ( teachers == null ) {
+            return null;
+        }
+
+        TeachersDto.TeachersDtoBuilder teachersDto = TeachersDto.builder();
+
+        teachersDto.teacherId( teachers.getTeacherId() );
+        teachersDto.firstname( teachers.getFirstname() );
+        teachersDto.lastname( teachers.getLastname() );
+        teachersDto.createdAt( teachers.getCreatedAt() );
+        teachersDto.updatedAt( teachers.getUpdatedAt() );
+        teachersDto.deletedAt( teachers.getDeletedAt() );
+
+        teachersDto.subTeachDto( mapper.toDto(teachers.getSubjectTeacher()) );
+
+        return teachersDto.build();
     }
 }
