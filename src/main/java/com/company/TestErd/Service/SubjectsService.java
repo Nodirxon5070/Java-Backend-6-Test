@@ -41,7 +41,7 @@ public record SubjectsService(
                         ResponseDto.<SubjectsDto>builder()
                                 .message("OK")
                                 .success(true)
-                                .date(this.mapper.toDto(subjects))
+                                .date(this.mapper.toDtoWithSubTeach(subjects))
                                 .build()
                 ).orElse(
                         ResponseDto.<SubjectsDto>builder()

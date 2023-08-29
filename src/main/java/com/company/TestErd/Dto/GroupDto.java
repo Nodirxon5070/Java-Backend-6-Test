@@ -10,4 +10,6 @@ import lombok.*;
 @NoArgsConstructor
 @JsonInclude(value = JsonInclude.Include.NON_NULL)
 public class GroupDto {
+    private Integer groupId;
+    private String groupName;
 }

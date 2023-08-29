@@ -1,10 +1,13 @@
 package com.company.TestErd.Dto;
 
+import com.company.TestErd.Module.Marks;
+import com.company.TestErd.Module.SubjectTeacher;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import jakarta.validation.constraints.NotBlank;
 import lombok.*;
 
 import java.time.LocalDateTime;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -20,4 +23,7 @@ public class SubjectsDto {
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
     private LocalDateTime deletedAt;
+
+    private Set<MarksDto> marksDtoSet;
+    private SubjectTeacherDto subTeachDto;
 }

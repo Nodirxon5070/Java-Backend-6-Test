@@ -28,4 +28,8 @@ public class Teachers {
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
     private LocalDateTime deletedAt;
+
+    @ManyToOne(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
+    @JoinColumn(insertable = false,updatable = false,name = "subject_teacher_column")
+    private SubjectTeacher subjectTeacher;
 }

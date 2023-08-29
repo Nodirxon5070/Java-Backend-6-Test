@@ -1,0 +1,14 @@
+package com.company.TestErd.Service.Mapper;
+
+import java.util.stream.Collectors;
+import javax.annotation.processing.Generated;
+import org.springframework.stereotype.Component;
+
+@Generated(
+    value = "org.mapstruct.ap.MappingProcessor",
+    date = "2023-08-29T09:01:15+0500",
+    comments = "version: 1.5.3.Final, compiler: javac, environment: Java 20.0.2 (Oracle Corporation)"
+)
+@Component
+public class MarksMapperImpl extends MarksMapper {
+}
