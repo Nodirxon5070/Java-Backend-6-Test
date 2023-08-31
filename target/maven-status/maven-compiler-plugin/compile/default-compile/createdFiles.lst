@@ -12,6 +12,7 @@ com\company\TestErd\Controller\StudentsController.class
 com\company\TestErd\Dto\GroupDto$GroupDtoBuilder.class
 com\company\TestErd\Controller\MarksController.class
 com\company\TestErd\Dto\ErrorDto$ErrorDtoBuilder.class
+com\company\TestErd\Service\Mapper\SubjectTeacherMapperImpl.class
 com\company\TestErd\TestErdApplication.class
 com\company\TestErd\Controller\SubjectsController.class
 com\company\TestErd\Dto\Exception.class
@@ -27,6 +28,7 @@ com\company\TestErd\Dto\SubjectTeacherDto.class
 com\company\TestErd\Repository\MarksRepository.class
 com\company\TestErd\Module\Groups.class
 com\company\TestErd\Repository\StudentsRepository.class
+com\company\TestErd\Service\Mapper\SubjectsMapperImpl.class
 com\company\TestErd\Service\SubjectTeacherService.class
 com\company\TestErd\Module\Subjects.class
 com\company\TestErd\Dto\ResponseDto$ResponseDtoBuilder.class
