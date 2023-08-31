@@ -5,32 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9649a5fb-5ced-4c44-90e4-bd627bd0e1a9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac5d611e-be94-48e8-a546-3ab55e1fa3e9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ac5d611e-be94-48e8-a546-3ab55e1fa3e9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_28_2023_2_19_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_28_2023_2_19_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_28_2023_2_19_PM__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_28_2023_2_19_PM__Changes_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_28_2023_2_21_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_28_2023_2_21_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_28_2023_2_21_PM__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_28_2023_2_21_PM__Changes_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/TestErd/Service/SubjectsServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Controller/GroupsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Controller/GroupsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Controller/SubjectTeacherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Controller/SubjectTeacherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Controller/SubjectsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Controller/SubjectsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Controller/TeachersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Controller/TeachersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/ErrorDto$ErrorDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/ErrorDto$ErrorDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/ErrorDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/ErrorDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/Exception.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/Exception.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/GroupDto$GroupDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/GroupDto$GroupDtoBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/GroupDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/GroupDto.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/MarksDto$MarksDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/MarksDto$MarksDtoBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/MarksDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/MarksDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/ResponseDto$ResponseDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/ResponseDto$ResponseDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/ResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/ResponseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/SimpleCrud.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/SimpleCrud.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/StudentsDto$StudentsDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/StudentsDto$StudentsDtoBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/StudentsDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/StudentsDto.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/SubjectTeacherDto$SubjectTeacherDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/SubjectTeacherDto$SubjectTeacherDtoBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/SubjectTeacherDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/SubjectTeacherDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/SubjectsDto$SubjectsDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/SubjectsDto$SubjectsDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/SubjectsDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/SubjectsDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/TeachersDto$TeachersDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/TeachersDto$TeachersDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/TeachersDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Dto/TeachersDto.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Groups$GroupsBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Groups$GroupsBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Groups.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Groups.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Marks$MarksBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Marks$MarksBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Marks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Marks.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Students$StudentsBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Students$StudentsBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Students.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Students.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/SubjectTeacher$SubjectTeacherBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/SubjectTeacher$SubjectTeacherBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/SubjectTeacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/SubjectTeacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Subjects$SubjectsBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Subjects$SubjectsBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Subjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Subjects.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Teachers$TeachersBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Teachers$TeachersBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Teachers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Module/Teachers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Repository/SubjectRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Repository/SubjectRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Repository/SubjectTeacherRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Repository/SubjectTeacherRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Repository/TeacherRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Repository/TeacherRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/Mapper/SubjectTeacherMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/Mapper/SubjectTeacherMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/Mapper/SubjectTeacherMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/Mapper/SubjectTeacherMapperImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/Mapper/SubjectsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/Mapper/SubjectsMapper.class" afterDir="false" />
@@ -40,14 +54,13 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/SubjectTeacherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/SubjectTeacherService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/SubjectsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/SubjectsService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/TeachersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/Service/TeachersService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/TestErd/TestErdApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/TestErd/TestErdApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/company/TestErd/Service/Mapper/GroupsMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/company/TestErd/Service/Mapper/GroupsMapperImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/company/TestErd/Service/Mapper/MarksMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/company/TestErd/Service/Mapper/MarksMapperImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/company/TestErd/Service/Mapper/StudentsMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/company/TestErd/Service/Mapper/StudentsMapperImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/company/TestErd/Service/Mapper/SubjectTeacherMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/company/TestErd/Service/Mapper/SubjectTeacherMapperImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/company/TestErd/Service/Mapper/SubjectsMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/company/TestErd/Service/Mapper/SubjectsMapperImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/company/TestErd/Service/Mapper/TeachersMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/company/TestErd/Service/Mapper/TeachersMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +72,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -89,6 +103,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;dev/Asad&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/VICTUS/IdeaProjects/newProjectForPractise/Java-Backend-6-Test/src/main/java/com/company/TestErd/Module&quot;,
@@ -111,13 +127,98 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\VICTUS\IdeaProjects\newProjectForPractise\Java-Backend-6-Test\src\main\java\com\company\TestErd\Module" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.company.TestErd.Service" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean package -Dmaven.test.skip" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SubjectsServiceTest">
+    <configuration name="SubjectsServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestErd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.TestErd.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.TestErd.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.company.TestErd.Service.SubjectsServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubjectsServiceTest.testCreatePositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestErd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.TestErd.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.TestErd.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.company.TestErd.Service.SubjectsServiceTest" />
+      <option name="METHOD_NAME" value="testCreatePositive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubjectsServiceTest.testGetPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestErd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.TestErd.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.TestErd.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.company.TestErd.Service.SubjectsServiceTest" />
+      <option name="METHOD_NAME" value="testGetPositive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubjectsServiceTest.testServiceException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestErd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.TestErd.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.TestErd.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.company.TestErd.Service.SubjectsServiceTest" />
+      <option name="METHOD_NAME" value="testServiceException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubjectsServiceTest.testUpdatePositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestErd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.TestErd.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.TestErd.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.company.TestErd.Service.SubjectsServiceTest" />
+      <option name="METHOD_NAME" value="testUpdatePositive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestErdApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="TestErd" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.company.TestErd.TestErdApplication" />
@@ -125,6 +226,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SubjectsServiceTest" />
+        <item itemvalue="JUnit.SubjectsServiceTest.testCreatePositive" />
+        <item itemvalue="JUnit.SubjectsServiceTest.testUpdatePositive" />
+        <item itemvalue="JUnit.SubjectsServiceTest.testGetPositive" />
+        <item itemvalue="JUnit.SubjectsServiceTest.testServiceException" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -151,6 +261,8 @@
       <workItem from="1693278787445" duration="171000" />
       <workItem from="1693278989271" duration="7659000" />
       <workItem from="1693380006185" duration="481000" />
+      <workItem from="1693506036417" duration="1100000" />
+      <workItem from="1693507165033" duration="1605000" />
     </task>
     <servers />
   </component>
